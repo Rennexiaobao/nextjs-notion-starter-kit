@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '11fd189352fe80cab779d8d6673c5949',
+  rootNotionPageId: '2b59857dbf7c8103a387c63fa5102391',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -10,15 +10,15 @@ export default siteConfig({
 
   // basic site info (required)
   name: '读书笔记',
-  domain: 'notes.ohso.me',
-  author: '幽灵泰瑞宝',
+  domain: 'littlefirefly.cn',
+  author: '吴小宝',
 
   // open graph metadata (optional)
   description: '主要是一些读书笔记，零零散散，不成体系',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
-  github: 'yongx',
+  github: 'Rennexiaobao',
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
@@ -42,9 +42,9 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  pageUrlOverrides: {
-    '/learning': '120d189352fe8082a9ade74c5eeaae04',
-  },
+  // pageUrlOverrides: {
+  //   '/learning': '120d189352fe8082a9ade74c5eeaae04',
+  // },
   // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
@@ -52,13 +52,13 @@ export default siteConfig({
   // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
-    {
-      title: 'Learning',
-      pageId: '120d189352fe8082a9ade74c5eeaae04'
-    },
+    // {
+    //   title: 'Learning',
+    //   pageId: '120d189352fe8082a9ade74c5eeaae04'
+    // },
     {
       title: 'All',
-      pageId: '120d189352fe800c91d5d744bcee2730'
+      pageId: '2b59857dbf7c8165aab8eeafe554411a'
     }
   ]
 })
